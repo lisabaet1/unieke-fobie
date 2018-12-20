@@ -256,11 +256,12 @@ body {
 
 /* Nieuwsbrief */
 .Nieuwsbrief-fl {
-    background: url("images/achtergrondnieuws.png") center;
+    background: url("images/achtergrondnieuwsM.png") center;
     min-height: 950px;
     background-size: cover;
 
     @media (min-width: $breekpuntsm) {
+        background: url("images/achtergrondnieuws.png") center;
         min-height: 1050px;
     }
 
@@ -361,7 +362,7 @@ body {
     }
 }
 
-/* Header oorzaken */
+/* Header oorzaken*/
 .header-oorzaken-fl {
     padding-top: 80px;
 
@@ -394,8 +395,7 @@ body {
     background-size: cover;
 
     @media (min-width: $breekpunt) {
-        height: 200px;
-    }
+        height: 350px;
 
     }
 
@@ -416,7 +416,7 @@ body {
             }
         }
     }
-
+}
 
 .oorzaken-fl {
     background-color: $colorY;
