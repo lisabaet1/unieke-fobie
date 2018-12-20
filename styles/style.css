@@ -1,0 +1,1077 @@
+/* import voor nieuwe font-variabelen */
+@import url("https://fonts.googleapis.com/css?family=Jolly+Lodger|Roboto:300,300i,400,400i,500,500i,700,700i");
+/* variabelen voor de fonts */
+/* variabelen voor de kleuren */
+/* breekpunt instellen voor van mobile naar screen */
+/* via een universele selector gaan we alles aanspreken */
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: #015C77;
+}
+
+.active {
+  border: 2px solid #EEF1EA;
+  border-radius: 20px;
+}
+
+/* Navigatie */
+.navbar-header a {
+  font-family: "Jolly Lodger", cursive;
+  font-size: 40px;
+}
+
+.navbar-home {
+  background-color: #015C77;
+}
+
+.navbar-home a {
+  color: #EEF1EA;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Header Home*/
+.header-home-fl {
+  padding-top: 80px;
+}
+
+@media (min-width: 560px) {
+  .header-home-fl {
+    padding-top: 150px;
+    padding-bottom: 130px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+.header-home-fl .img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 560px) {
+  .header-home-fl .img {
+    padding-bottom: 0px;
+    padding-top: 25px;
+  }
+}
+
+.header-home-fl .img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+.header-home-fl h1,
+.header-home-fl h2,
+.header-home-fl h3 {
+  font-family: "Jolly Lodger", cursive;
+  color: #EEF1EA;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header-home-fl h1 {
+  font-size: 120px;
+}
+
+@media (min-width: 560px) {
+  .header-home-fl h1 {
+    font-size: 140px;
+    line-height: 7rem;
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-home-fl h1 {
+    font-size: 120px;
+    line-height: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-home-fl h1 {
+    font-size: 160px;
+    line-height: 8rem;
+  }
+}
+
+.header-home-fl h2 {
+  font-size: 50px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 560px) {
+  .header-home-fl h2 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-home-fl h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-home-fl h2 {
+    font-size: 52px;
+  }
+}
+
+/* Wat is popcofobie */
+.Watispopcofobie-fl {
+  background-image: url("images/wolkmobile.png");
+  background-position: center;
+  min-height: 1100px;
+  background-size: cover;
+}
+
+@media (min-width: 560px) {
+  .Watispopcofobie-fl {
+    background-image: url("images/wolkmobile.png");
+    min-height: 1150px;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .Watispopcofobie-fl {
+    background-image: url("images/achtergrondWolk.png");
+    min-height: 900px;
+    background-size: cover;
+  }
+}
+
+.Watispopcofobie-fl .Watispopcofobie {
+  padding-top: 80px;
+}
+
+@media (min-width: 560px) {
+  .Watispopcofobie-fl .Watispopcofobie {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Watispopcofobie-fl .Watispopcofobie {
+    padding-top: 250px;
+  }
+}
+
+.Watispopcofobie-fl .Watispopcofobie .img {
+  padding-top: 20px;
+  width: 60%;
+  margin-left: 20%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 560px) {
+  .Watispopcofobie-fl .Watispopcofobie .img {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Watispopcofobie-fl .Watispopcofobie .img {
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Watispopcofobie-fl .Watispopcofobie .img {
+    padding-top: 150px;
+  }
+}
+
+.Watispopcofobie-fl .Watispopcofobie h3 {
+  font-family: "Jolly Lodger", cursive;
+  color: #585958;
+  font-size: 90px;
+  line-height: 5rem;
+  text-align: center;
+}
+
+@media (min-width: 560px) {
+  .Watispopcofobie-fl .Watispopcofobie h3 {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Watispopcofobie-fl .Watispopcofobie h3 {
+    padding-top: 50px;
+  }
+}
+
+.Watispopcofobie-fl .Watispopcofobie p {
+  color: #585958;
+  padding-top: 60px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .Watispopcofobie-fl .Watispopcofobie p {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .Watispopcofobie-fl .Watispopcofobie p {
+    padding-top: 100px;
+  }
+}
+
+/* Weetjes */
+.facts {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.facts .facts_image_container {
+  height: 200px;
+  width: auto;
+}
+
+.facts .facts_image_container .img {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.facts .facts_image_container .img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition-duration: 4s;
+          transition-duration: 4s;
+}
+
+.facts h4 {
+  font-family: "Jolly Lodger", cursive;
+  color: #D0DEDE;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.facts p {
+  color: #D0DEDE;
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 80px;
+}
+
+/* Nieuwsbrief */
+.Nieuwsbrief-fl {
+  background: url("images/achtergrondnieuws.png") center;
+  min-height: 950px;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .Nieuwsbrief-fl {
+    min-height: 1050px;
+  }
+}
+
+.Nieuwsbrief-fl .Nieuwsbrief {
+  padding-top: 140px;
+}
+
+@media (min-width: 560px) {
+  .Nieuwsbrief-fl .Nieuwsbrief {
+    padding-top: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Nieuwsbrief-fl .Nieuwsbrief {
+    padding-top: 300px;
+  }
+}
+
+.Nieuwsbrief-fl .Nieuwsbrief .img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 80px;
+}
+
+.Nieuwsbrief-fl .Nieuwsbrief h5 {
+  font-family: "Roboto", sans-serif;
+  color: #585958;
+  font-weight: 500;
+  font-size: 56px;
+  text-align: center;
+}
+
+@media (min-width: 560px) {
+  .Nieuwsbrief-fl .Nieuwsbrief h5 {
+    font-size: 68px;
+  }
+}
+
+.Nieuwsbrief-fl .Nieuwsbrief p {
+  color: #585958;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Nieuwsbrief-fl .Nieuwsbrief .form-group {
+  padding-top: 30px;
+}
+
+.Nieuwsbrief-fl .Nieuwsbrief .form-control {
+  border-radius: 40px;
+}
+
+.Nieuwsbrief-fl .Nieuwsbrief .btn-primary {
+  border-radius: 40px;
+  background-color: #585958;
+  border: 2px solid #585958;
+  color: #F9F2D8;
+}
+
+.Nieuwsbrief-fl .Nieuwsbrief .btn-primary:hover {
+  background-color: #F9F2D8;
+  color: #585958;
+}
+
+/* Footer */
+.page-footer .img {
+  height: 80px;
+  width: auto;
+  padding-left: 10px;
+}
+
+.page-footer h6 {
+  font-family: "Roboto", sans-serif;
+  color: #EEF1EA;
+  font-size: 20px;
+}
+
+.page-footer p {
+  font-family: "Roboto", sans-serif;
+  color: #EEF1EA;
+  font-size: 16px;
+  line-height: 1rem;
+  font-weight: 300;
+}
+
+.page-footer .fa-facebook {
+  color: #EEF1EA;
+}
+
+.page-footer .fa-twitter {
+  color: #EEF1EA;
+}
+
+.page-footer .fa-google-plus {
+  color: #EEF1EA;
+}
+
+.page-footer .fa-linkedin {
+  color: #EEF1EA;
+}
+
+/* Header oorzaken */
+.header-oorzaken-fl {
+  padding-top: 80px;
+}
+
+@media (min-width: 768px) {
+  .header-oorzaken-fl {
+    padding-top: 150px;
+    padding-bottom: 130px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+.header-oorzaken-fl h1 {
+  font-family: "Jolly Lodger", cursive;
+  color: #F9F2D8;
+  text-align: center;
+  font-size: 90px;
+}
+
+@media (min-width: 560px) {
+  .header-oorzaken-fl h1 {
+    font-size: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-oorzaken-fl h1 {
+    font-size: 160px;
+  }
+}
+
+.evolutie-fl {
+  background: url("images/achtergrondheader.png") center;
+  height: 300px;
+  background-size: cover;
+}
+
+@media (min-width: 560px) {
+  .evolutie-fl {
+    height: 200px;
+  }
+}
+
+.evolutie .img {
+  width: 100%;
+  height: auto;
+  padding-top: 90px;
+}
+
+@media (min-width: 560px) {
+  .evolutie .img {
+    padding-top: 110px;
+  }
+}
+
+@media (min-width: 768px) {
+  .evolutie .img {
+    padding-top: 0px;
+  }
+}
+
+.oorzaken-fl {
+  background-color: #F9F2D8;
+}
+
+.oorzaken-fl .oorzaken {
+  text-align: center;
+  color: #585958;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 560px) {
+  .oorzaken-fl .oorzaken {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .oorzaken-fl .oorzaken {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .oorzaken-fl .oorzaken {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.oorzaken-fl .oorzaken p {
+  line-height: 1.8rem;
+}
+
+/* Header behandeling*/
+.header-behandeling-fl {
+  padding-top: 80px;
+  background: url("images/headerDBLG.png") center;
+  min-height: 400px;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .header-behandeling-fl {
+    padding-top: 150px;
+    padding-bottom: 130px;
+    padding-left: 120px;
+    padding-right: 120px;
+    min-height: 600px;
+  }
+}
+
+.header-behandeling-fl h1 {
+  font-family: "Jolly Lodger", cursive;
+  color: #EEF1EA;
+  text-align: center;
+  font-size: 80px;
+}
+
+@media (min-width: 560px) {
+  .header-behandeling-fl h1 {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-behandeling-fl h1 {
+    font-size: 130px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-behandeling-fl h1 {
+    font-size: 160px;
+  }
+}
+
+.behandeling-fl {
+  background-color: #EEF1EA;
+}
+
+.behandeling-fl .image-container {
+  min-height: 350px;
+}
+
+@media (min-width: 992px) {
+  .behandeling-fl .image-container {
+    min-height: 600px;
+  }
+}
+
+.behandeling-fl .image-container .img {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+}
+
+@media (min-width: 992px) {
+  .behandeling-fl .image-container .img {
+    padding-top: 0px;
+  }
+}
+
+.behandeling-fl h5 {
+  font-family: "Jolly Lodger", cursive;
+  color: #585958;
+  font-size: 48px;
+  padding-top: 20px;
+}
+
+@media (min-width: 560px) {
+  .behandeling-fl h5 {
+    padding-top: 10px;
+  }
+}
+
+.behandeling-fl p {
+  padding-bottom: 60px;
+}
+
+@media (min-width: 560px) {
+  .behandeling-fl p {
+    padding-bottom: 0px;
+  }
+}
+
+/* Header Getuigenissen*/
+.header-getuigenis-fl {
+  padding-top: 80px;
+  background: url("images/headerDBLB.png") center;
+  min-height: 400px;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .header-getuigenis-fl {
+    padding-top: 150px;
+    padding-bottom: 130px;
+    padding-left: 120px;
+    padding-right: 120px;
+    min-height: 600px;
+  }
+}
+
+.header-getuigenis-fl h1 {
+  font-family: "Jolly Lodger", cursive;
+  color: #D0DEDE;
+  text-align: center;
+  font-size: 70px;
+}
+
+@media (min-width: 560px) {
+  .header-getuigenis-fl h1 {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-getuigenis-fl h1 {
+    font-size: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-getuigenis-fl h1 {
+    font-size: 160px;
+  }
+}
+
+.getuigenissen-fl {
+  background-color: #D0DEDE;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.getuigenissen-fl .getuigenissen {
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  /* This container is needed to position the front and back side */
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  /* Position the front and back side */
+  /* Style the front side (fallback if image is missing) */
+  /* Style the back side */
+}
+
+@media (min-width: 560px) {
+  .getuigenissen-fl .getuigenissen {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.getuigenissen-fl .getuigenissen p {
+  font-style: italic;
+}
+
+.getuigenissen-fl .getuigenissen .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .getuigenissen-fl .getuigenissen .flip-card {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .getuigenissen-fl .getuigenissen .flip-card {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .getuigenissen-fl .getuigenissen .flip-card {
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+  }
+}
+
+.getuigenissen-fl .getuigenissen .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.getuigenissen-fl .getuigenissen .img {
+  width: 100%;
+  height: auto;
+}
+
+.getuigenissen-fl .getuigenissen .text {
+  padding-top: 80px;
+}
+
+.getuigenissen-fl .getuigenissen .text h2 {
+  font-family: "Jolly Lodger", cursive;
+  color: #D0DEDE;
+  font-size: 60px;
+}
+
+.getuigenissen-fl .getuigenissen .text h3 {
+  font-family: "Roboto", sans-serif;
+  color: #D0DEDE;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.getuigenissen-fl .getuigenissen .text p {
+  font-family: "Roboto", sans-serif;
+  color: #D0DEDE;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.getuigenissen-fl .getuigenissen .flip-card:hover .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.getuigenissen-fl .getuigenissen .flip-card-front,
+.getuigenissen-fl .getuigenissen .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.getuigenissen-fl .getuigenissen .flip-card-front {
+  background-color: #015C77;
+}
+
+.getuigenissen-fl .getuigenissen .flip-card-back {
+  background-color: #015C77;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+/* Praatgroep */
+.praatgroep-fl {
+  background: url("images/praatgroep.png") center;
+  min-height: 900px;
+  background-size: cover;
+}
+
+.praatgroep-fl .praatgroep {
+  padding-top: 200px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 560px) {
+  .praatgroep-fl .praatgroep {
+    padding-top: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .praatgroep-fl .praatgroep {
+    padding-top: 300px;
+  }
+}
+
+.praatgroep-fl .praatgroep .img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 560px) {
+  .praatgroep-fl .praatgroep .img {
+    padding-bottom: 80px;
+  }
+}
+
+.praatgroep-fl .praatgroep h5 {
+  font-family: "Roboto", sans-serif;
+  color: #585958;
+  font-weight: 500;
+  font-size: 56px;
+  text-align: center;
+}
+
+@media (min-width: 560px) {
+  .praatgroep-fl .praatgroep h5 {
+    font-size: 68px;
+  }
+}
+
+.praatgroep-fl .praatgroep p {
+  color: #585958;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1.8rem;
+}
+
+/* footer met achtergrond test */
+.footer-fl {
+  background: url("images/footerDBLG.png") center;
+  height: 200px;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+@media (min-width: 560px) {
+  .footer-fl {
+    height: 510px;
+  }
+}
+
+.footerg-fl {
+  background: url("images/footerDBLB.png") center;
+  height: 200px;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+@media (min-width: 560px) {
+  .footerg-fl {
+    height: 510px;
+  }
+}
+
+.footero-fl {
+  background: url("images/footerDBY.png") center;
+  height: 200px;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+@media (min-width: 560px) {
+  .footero-fl {
+    height: 510px;
+  }
+}
+
+/* Header giften */
+.header-giften-fl {
+  padding-top: 80px;
+  background: url("images/headerDBLB.png") center;
+  min-height: 400px;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .header-giften-fl {
+    padding-top: 150px;
+    padding-bottom: 130px;
+    padding-left: 120px;
+    padding-right: 120px;
+    min-height: 600px;
+  }
+}
+
+.header-giften-fl h1 {
+  font-family: "Jolly Lodger", cursive;
+  color: #D0DEDE;
+  text-align: center;
+  font-size: 70px;
+}
+
+@media (min-width: 560px) {
+  .header-giften-fl h1 {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-giften-fl h1 {
+    font-size: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-giften-fl h1 {
+    font-size: 160px;
+  }
+}
+
+/* crowdfunding */
+.crowdfunding-fl {
+  background-color: #D0DEDE;
+  padding-top: 100px;
+}
+
+.crowdfunding-fl h1 {
+  font-family: "Roboto", sans-serif;
+  color: #585958;
+  padding-bottom: 20px;
+  font-size: 48px;
+  padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .crowdfunding-fl h1 {
+    padding-top: 0px;
+  }
+}
+
+.crowdfunding-fl p {
+  font-family: "Roboto", sans-serif;
+  color: #585958;
+  padding-bottom: 20px;
+  line-height: 1.7rem;
+}
+
+.crowdfunding-fl h2 {
+  font-family: "Jolly Lodger", cursive;
+  color: #015C77;
+  padding-bottom: 150px;
+  font-size: 60px;
+  line-height: 4rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.crowdfunding-fl .progress-bar {
+  background-color: #015C77;
+  color: #D0DEDE;
+}
+
+.crowdfunding-fl h3 {
+  font-family: "Roboto", sans-serif;
+  color: #015C77;
+  font-size: 42px;
+  text-align: center;
+  padding-top: 20px;
+  font-style: italic;
+  padding-bottom: 60px;
+}
+
+.crowdfunding-fl h4 {
+  font-family: "Roboto", sans-serif;
+  color: #585958;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 56px;
+}
+
+.crowdfunding-fl .theme-blue {
+  color: #015C77;
+}
+
+.crowdfunding-fl .theme-background-lb {
+  background-color: #D0DEDE;
+  color: #4c4c4c;
+  border: 3px solid #015C77;
+  border-radius: 50px;
+}
+
+.crowdfunding-fl .donate-bar {
+  padding: 32px 23px 28px;
+}
+
+.crowdfunding-fl .donate-bar > div:first-child {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-right: 1px dotted #015C77;
+  margin-top: 19px;
+  font-size: 25px;
+  padding: 0;
+}
+
+.crowdfunding-fl .donate-buttons > li > a {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  padding: 10px 3px;
+  border-radius: 5px;
+}
+
+.crowdfunding-fl .btn-blue-other,
+.crowdfunding-fl .btn-blue {
+  font-family: "Roboto", sans-serif;
+  background-color: #015C77;
+  color: #EEF1EA;
+  border-radius: 20px;
+  border: 0;
+  padding: 0;
+  width: 75px;
+  height: 37px;
+  margin-top: 8px;
+}
+
+.crowdfunding-fl .btn-blue:hover {
+  background-color: #EEF1EA;
+  color: #015C77;
+}
+
+.crowdfunding-fl .btn-blue-other:hover {
+  background-color: #EEF1EA;
+  color: #015C77;
+}
+
+.crowdfunding-fl .btn-grey {
+  font-family: "Roboto", sans-serif;
+  background-color: #585958;
+  color: #EEF1EA;
+  border-radius: 20px;
+  border: 0;
+  padding: 0;
+  width: 114px;
+  height: 37px;
+  margin-top: 8px;
+}
+
+.crowdfunding-fl .btn-grey:hover {
+  background-color: #F9F2D8;
+  color: #585958;
+}
+
+.crowdfunding-fl #other-input {
+  display: none;
+}
+
+.crowdfunding-fl #other-input input {
+  position: relative;
+  background-color: #EEF1EA;
+  color: #015C77;
+  border-radius: 20px;
+  border: 0;
+  border: 3px solid #015C77;
+  padding: 0 0 3px 15px;
+  width: 75px;
+  height: 37px;
+  margin: 18px 3px 0;
+}
+
+.crowdfunding-fl input[type=number]::-webkit-inner-spin-button,
+.crowdfunding-fl input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.crowdfunding-fl #other-input span {
+  font-family: inherit;
+  color: #015C77;
+  position: absolute;
+  padding: 23px 12px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.crowdfunding-fl .donate-buttons .active {
+  background-color: #D0DEDE;
+  border: 3px solid #015C77;
+  color: #015C77;
+}
+
+.crowdfunding-fl .donate-buttons:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.crowdfunding-fl .donate-buttons li:last-child {
+  font-size: 17px;
+  line-height: 37px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.crowdfunding-fl h6 {
+  font-family: "Roboto", sans-serif;
+  color: #585958;
+  font-size: 32px;
+}
+/*# sourceMappingURL=style.css.map */
